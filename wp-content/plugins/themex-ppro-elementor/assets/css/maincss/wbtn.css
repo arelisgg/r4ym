@@ -1,0 +1,510 @@
+
+/* === style_w7 button ==== */
+
+.text-left .witr_btn_sinner {
+    text-align: left;
+}
+.text-right .witr_btn_sinner {
+    text-align: right;
+}
+.text-center .witr_btn_sinner {
+    text-align: center;
+}
+
+/* button default style */
+.witr_button_area {
+    text-align: left;
+    overflow: hidden;	
+}
+.witr_btn {
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 18px 40px;
+    text-align: center;
+    position: relative;
+    margin-right: 15px;
+    z-index: 2;
+    -webkit-transition: 1s;
+    transition: 1s;
+	font-weight:400;
+}
+
+/* video button i */
+.witr_btn i {
+    font-size: 18px;
+    margin-left: 6px;		
+}
+
+/* pluse_btn_icon */
+.pluse_btn_icon{
+    display: inline-block;	
+}
+
+/* button default br style */
+.witr_bbtn{
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 30px;
+    text-align: center;
+    position: relative;
+    margin-right: 20px;
+	z-index:2;
+    -webkit-transition: 1s;
+    transition: 1s;	
+}
+
+
+/* video button i */
+.witr_bbtn i {
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+
+/* ------------ button gradient style ----------------- */
+.witr_gbtn{
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    text-align: center;
+    position: relative;
+    margin-right: 20px;
+	z-index:2;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;	
+}
+.witr_gbtn:before{
+    position: absolute;
+    border-radius: 3px;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    top: 0;
+    content: "";
+    width: 100%;
+	z-index:-2;
+-webkit-transition: all .5s ease;
+transition: all .5s ease;	
+}
+.witr_gbtn:hover:before{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+/* video button i */
+
+.witr_gbtn i {
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+
+
+/* ------------ button gradient border style ----------------- */
+.witr_gbbtn{
+    border-radius: 30px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+     padding: 12px 30px;
+    text-align: center;
+    position: relative;
+    margin-right: 20px;
+	z-index:2;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;	
+}
+.witr_gbbtn:before{
+    position: absolute;
+    border-radius: 3px;
+    left: 0;
+    height: 100%;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top: 0;
+    content: "";
+    width: 100%;
+	z-index:-2;
+-webkit-transition: all .5s ease;
+transition: all .5s ease;	
+}
+.witr_gbbtn:after{
+    position: absolute;
+    border-radius: 3px;
+    left: 2px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    top: 2px;
+    content: "";
+	z-index:-1;
+-webkit-transition: all .5s ease;
+transition: all .5s ease;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);	
+}
+
+
+.witr_gbbtn:hover:before{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.witr_gbbtn:hover:after{
+    opacity:0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+/* video button i */
+
+.witr_gbbtn i {
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+
+
+
+
+
+/* Video Default Button */
+.witr_vbtn{
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-top: 10px;
+     display: inline-block;
+}
+/* Video Default Border Button */
+.witr_vbbtn{
+     width: 50px;
+     height: 50px;
+     line-height: 46px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-top: 10px;
+     display: inline-block;
+}
+
+
+
+/* Video gradient Button */
+.witr_vgbtn{
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-top: 10px;
+     display: inline-block; 
+}
+
+
+/* Video gradient hover style Button */
+
+.witr_vhgbtn{
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-top: 10px;
+     display: inline-block; 
+}
+
+
+.witr_vhgbtn:before{
+     position: absolute;
+     border-radius:50%;
+     left: 0;
+     height: 100%;
+     z-index:-2;
+     opacity: 0;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+     
+     
+     -webkit-transition: .3s;
+     
+     
+     transition:.3s;
+     top: 0;
+     content: "";
+     width:100%;
+}
+ .witr_vhgbtn:hover:before{
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+
+/* Video gradient border style Button */
+
+.witr_vbgbtn{
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-top: 10px;
+     display: inline-block;
+}
+
+.witr_vbgbtn:before{
+     position: absolute;
+     border-radius:50%;
+     left: 0;
+     height: 100%;
+     z-index:-2;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     -webkit-transition: .3s;
+     transition:.3s;
+     top: 0;
+     content: "";
+     width:100%;
+}
+.witr_vbgbtn:after{
+     height: calc(100% - 4px);
+     width: calc(100% - 4px);	 
+     z-index: -1;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     
+     -webkit-transition: all .5s ease;
+     
+     transition: all .5s ease;
+     position: absolute;
+     border-radius:50%;
+     left: 2px;
+     top: 2px;
+     content: "";
+}
+.witr_vbgbtn:hover:after{
+	opacity:0;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+
+/* Video gradient dubble border style Button */
+
+ .witr_vbbgbtn_inner{
+     width: 70px;
+     height: 70px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-right: 20px;
+}
+ .witr_vbbgbtn_inner:before{
+     position: absolute;
+     border-radius:50%;
+     left: 0;
+     height: 100%;
+     z-index:-2;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     -webkit-transition: .3s;
+     transition:.3s;
+     top: 0;
+     content: "";
+     width:100%;
+}
+ .witr_vbbgbtn_inner:after{
+     height: calc(100% - 2px);
+     z-index: -1;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     
+     -webkit-transition: all .5s ease;
+     
+     transition: all .5s ease;
+     position: absolute;
+     border-radius:50%;
+     left: 1px;
+     top: 1px;
+     content: "";
+     width: calc(100% - 2px);
+}
+/* inner div btn */
+.witr_vbbgbtn{
+     width: 50px;
+     height: 50px;
+     line-height: 50px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-top: 10px;
+     display: inline-block;
+}
+
+.witr_vbbgbtn:before{
+     position: absolute;
+     border-radius:50%;
+     left: 0;
+     height: 100%;
+     z-index:-2;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     
+     -webkit-transition: .3s;
+     
+     transition:.3s;
+     top: 0;
+     content: "";
+     width:100%;
+}
+.witr_vbbgbtn:after{
+     height: calc(100% - 4px);
+     width: calc(100% - 4px);	 
+     z-index: -1;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     
+     -webkit-transition: all .5s ease;
+     
+     transition: all .5s ease;
+     position: absolute;
+     border-radius:50%;
+     left: 2px;
+     top: 2px;
+     content: "";
+}
+
+
+/* Video gradient dubble bg border style Button */
+
+ .witr_vdbbgbtn_inner{
+     width: 70px;
+     height: 70px;
+     text-align: center;
+     position: relative;
+     border-radius: 50%;
+     z-index: 2;
+     margin-right: 20px;
+}
+ .witr_vdbbgbtn_inner:before{
+     position: absolute;
+     border-radius:50%;
+     left: 0;
+     height: 100%;
+     z-index:-2;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";  
+     -webkit-transition: .3s;  
+     transition:.3s;
+     top: 0;
+     content: "";
+     width:100%;
+}
+ .witr_vdbbgbtn_inner:after{
+     height: calc(100% - 2px);
+     z-index: -1;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";    
+     -webkit-transition: all .5s ease;    
+     transition: all .5s ease;
+     position: absolute;
+     border-radius:50%;
+     left: 1px;
+     top: 1px;
+     content: "";
+     width: calc(100% - 2px);
+}
+/* inner div btn */
+.witr_vdbbgbtn {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    z-index: 2;
+    margin-top: 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+.witr_vdbbgbtn:before{
+     position: absolute;
+     border-radius:50%;
+     left: 0;
+     height: 100%;
+     z-index:-2;
+     opacity: 1;
+     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+     -webkit-transition: .3s;
+     transition:.3s;
+     top: 0;
+     content: "";
+     width:100%;
+}
+
+
+
+/* button video text */
+.f_left{
+	float:left;
+	margin-right:5px;
+}
+ .witr_vider_text {
+     float: left;
+}
+ .witr_vider_text_inner {
+     margin-top: 5px;
+}
+ span.witr_v_text1 {
+     display:block;
+     font-size:17px;
+     font-weight:300;
+}
+ span.witr_v_text2 {    
+     font-size:17px;
+     font-weight:600;
+     text-transform:uppercase;
+}
+
+
+.witr_btn_vstyled {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.witr_btn_vstyle{
+	margin-right:15px;
+}
+.vtbtnsty4{
+	margin-top:10px;
+}
+
+/* responsive */
+
+@media (max-width: 767px) {
+.text-right .witr_btn_sinner,
+.text-left .witr_btn_sinner {
+    text-align: center !important;
+}	
+}
+
+
+
+
+

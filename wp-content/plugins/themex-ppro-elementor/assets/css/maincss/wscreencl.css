@@ -1,0 +1,265 @@
+
+/*===========================
+    8.Screenshots css 
+===========================*/
+.Screenshots {}
+.dnSlide-main {
+    position: relative;
+}
+.dnSlide-main img {
+    width: 100%;
+}
+.Screenshots-fearm {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    -webkit-transform: translateX(-50%);
+    
+            transform: translateX(-50%);
+    z-index: 99;
+}
+.Screenshots-fearm img {
+    width: 154% !important;
+    max-width: 154% !important;
+    position: relative;
+    left: -123px;
+    top: -26px;
+}
+.Screenshots .dnSlide-main .dnSlide-btn {
+    border-radius: 50%;
+    height: 40px !important;
+    width: 40px !important;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+}
+.Screenshots .dnSlide-main .dnSlide-left-btn {
+    position: absolute;
+    top: 50%;
+    
+    -webkit-transform: translateX(-50%);
+    
+            transform: translateX(-50%);
+    left: -65px;
+	opacity:1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.Screenshots .dnSlide-main .dnSlide-right-btn {
+    position: absolute;
+    top: 50%;
+    
+    -webkit-transform: translateX(-50%);
+    
+            transform: translateX(-50%);
+    right: -107px;
+	opacity:1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+.Screenshots .dnSlide-main .dnSlide-left-btn:before {
+    position: absolute;
+    content: '\f104';
+    left: 43%;
+    top: 46%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: fontawesome !important;
+}
+.Screenshots .dnSlide-main .dnSlide-right-btn:before {
+    position: absolute;
+    content: '\f105';
+    left: 52%;
+    top: 47%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    font-family: fontawesome !important;
+}
+.Screenshots:hover .dnSlide-main .dnSlide-right-btn,
+.Screenshots:hover .dnSlide-main .dnSlide-left-btn{
+	opacity:1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	
+}
+/*====== home page 3 ======*/
+.Screenshots-area {
+    position: relative;
+}
+.Screenshots-slide .slick-center .slide-item img {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    
+}
+.Screenshots-slide .slide-item img {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    
+    width: 100%;
+}
+.Screenshots-slide .slick-center {
+    position: relative;
+}
+.Screenshots-area .Screenshots-frame-img {
+    position: absolute;
+    left: 10px;
+    top: -29px;
+    width: 100%;
+}
+.Screenshots-frame-img img {
+    width: 43%;
+    position: absolute;
+    left: 50%;
+    
+    -webkit-transform: translateX(-50%);
+    
+            transform: translateX(-50%);
+}
+.Screenshots-slide .slick-arrow.slick-prev {
+     left: 200px;
+}
+.Screenshots-slide .slick-arrow.slick-next {
+     right: 200px;
+}
+/*====== home page 5 ======*/
+ .mobile-slide .slick-center .mobile-thumb img {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    
+}
+.mobile-slide .mobile-thumb img {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    
+    width: 100%;
+} 
+/*====== home page 6 ======*/
+.mobile-slide-6 .slick-center .mobile-thumb img {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    
+}
+.mobile-slide-6 .mobile-thumb img {
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    
+    width: 100%;
+}
+.mobile-slide-7 .mobile-thumb{
+    position: relative;
+}
+.mobile-slide-7 .mobile-thumb .mobile-slide-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    
+    
+    -webkit-transition: .5s;
+    
+    
+    transition: .5s;
+}
+.mobile-slide-7 .mobile-thumb .mobile-slide-overlay a{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+}
+.mobile-slide-7 .mobile-thumb:hover .mobile-slide-overlay{
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    
+} 
+
+.Screenshots .slick-slide img {
+    width: 100%;
+}
+.play-overlay span {
+    display: none;
+}
+/* responsive */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.dnSlide-main.done {
+	margin-left: 61px;
+}
+.Screenshots-fearm img {
+	width: 190% !important;
+	left: -96px;
+	top: -28px;
+	max-width: 190% !important;
+}
+.Screenshots .dnSlide-main .dnSlide-right-btn {
+	right: -83px;
+}
+.Screenshots .dnSlide-main .dnSlide-left-btn {
+	left: -43px;
+}	
+}
+@media (min-width: 768px) and (max-width: 991px) {
+ .dnSlide-main.done {
+	margin-left: -54px;
+}
+.Screenshots-fearm img {
+width: 240% !important;
+left: -149px;
+top: -24px;
+max-width: 240% !important;
+}  	
+.Screenshots .dnSlide-main .dnSlide-right-btn {
+	right: 0px;
+}
+.Screenshots .dnSlide-main .dnSlide-left-btn {
+	left: 47px;
+	}	
+}
+@media (max-width: 767px) {
+.dnSlide-main.done {
+	 -webkit-transform: scale(0.4);
+			 transform: scale(0.4);
+	margin-left: -280px;
+	top: -120px;		
+}
+.Screenshots-fearm img {
+	width: 260% !important;
+	max-width: 260% !important;
+	left: -65px;
+}   
+.dnSlide-main  img{
+	width: 100%;
+} 
+.dnSlide-btn {
+	display: none;
+}
+.Screenshots-area .Screenshots-frame-img {
+	left: -64%;
+	top: -13px;
+	width: 232%;
+}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.dnSlide-main.done {
+-webkit-transform: scale(0.7);
+		transform: scale(0.7);
+	margin-left: -196px;
+}
+.Screenshots-fearm img {
+	width: 256% !important;
+	max-width: 256% !important;
+	left: -98px;
+	top: 49px;
+}
+}
+
+
+

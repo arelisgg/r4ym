@@ -1,0 +1,15 @@
+/*======  socials  css =======*/ 
+.witr_single_socials{}
+.witr_single_socials ul{}
+.witr_single_socials ul li{
+    list-style: none;	
+}
+.witr_single_socials ul li a{}
+.witr_single_socials ul li a i{	
+    display: inline-block;
+    margin-right: 15px;
+	font-size:16px;   
+    -webkit-transition: .5s;   
+    transition: .5s;
+    margin-top: 8px;
+}

@@ -1,0 +1,166 @@
+
+/*=====================
+themex HEADING TOP AREA CSS
+=========================*/
+/* LEFT RIGHT CSS */
+
+.em40_header_area_main {} .em40_header_area_main.hdisplay_none {
+    display: none;
+}
+.themex-header-top {
+	    padding: 10px 0;
+}
+.top-address p {
+    margin-bottom: 0;
+}
+.top-address p span,
+.top-address p a {
+    margin-right: 20px;
+}
+.top-address p a {
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+/* TOP RIGHT CSS */
+
+.top-welcomet p span,
+.top-welcomet p a,
+.top-welcome p span,
+.top-welcome p a,
+.top-welcome p,
+.top-address p a,
+.top-right-menu ul.social-icons li a,
+.top-address p span {
+    font-size: 14px;
+	font-weight:400;	
+}
+.top-welcome p span i,
+.top-welcomet p span i,
+.top-address p span i,
+.top-address p a i {
+	font-size: 13px;
+    margin-right: 5px;
+}
+.top-both-p0 .top-address p a,
+.top-both-p0 .top-address p span {
+    margin-right: 0px;
+    margin-left: 12px;
+}
+.top-welcomet p,
+.top-welcome p {
+    padding: 0px;
+    margin: 0px;
+}
+.top-address {
+    display: inline-block;
+}
+/* top menu */
+.top-right-menu ul.social-icons {
+    margin: 0;
+    padding: 0;
+}
+.top-right-menu ul.social-icons li {
+    display: inline-block;
+    margin-left: 15px;
+    position: relative;
+}
+.top-right-menu ul.social-icons li a {
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    font-size: 15px;
+}
+.top-right-menu .menu-item-has-children > a:after {
+    margin-left: 5px;
+    content: "\ea5b";
+     font-family: IcoFont;
+    font-size: 15px;
+    opacity: .7;
+}
+/* sub menu css */
+.top-right-menu ul .sub-menu {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    width: 150px;
+    text-align: left;
+    z-index: 1;
+	transition: .5s;
+    margin: 0;
+    padding: 0;	
+}
+.top-right-menu ul.social-icons li:hover .sub-menu {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    visibility: visible;
+}
+.top-right-menu ul .sub-menu li {
+    padding: 5px 0px 5px;
+}
+.top-right-menu ul .sub-menu li a {
+    font-size: 14px;
+}
+.top-right-menu ul .sub-menu ul {
+    display: none;
+}
+.top-address.em-login a {
+    margin-right: 10px;
+}
+.top-address.em-login a + a {
+    margin-right: 0;
+}
+.top-address.em-login p a i,
+.top-address.em-login p a i {
+    margin-right: 5px;
+}
+.top-address.em-login a + a:before {
+    content: "|";
+    margin-right: 12px;
+}
+.txtc {
+    text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left!important;
+}
+.text-right {
+    text-align: right!important;
+}
+/* top opening */
+
+.top-address.menu_18 span {
+    padding: 8px 15px 9px;
+    display: inline-block;
+    
+}
+.top-right-menu ul.social-icons.menu_18,
+.top-right-menu ul.social-icons.menu_19 {
+    padding: 7px 0;
+}
+.em-login.menu_18,
+.em-quearys-top.menu_19 {
+    padding: 7px 0;
+}
+
+/* address left right icon */
+
+.top-right-menu.litop {
+    float: left;
+}
+
+.tx_top_together {
+    display: flex;
+    justify-content: flex-start;
+}
+/*=====================
+END themex HEADING TOP AREA CSS
+=========================*/

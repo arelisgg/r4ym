@@ -1,0 +1,48 @@
+
+/* Social Feed Css */
+.witr_feed_news{}
+.snigle_news_feed{
+	position:relative;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 30px 0px;
+	padding: 30px 30px 20px;
+	border-radius:5px;
+	-webkit-transition:1s;
+	transition:1s;	
+}
+.snigle_news_feed i{   
+    font-size: 30px;
+    display: inline-block;	
+}
+.snigle_news_feed i,
+.snigle_news_feed img{
+	float: left;
+    margin-top: 5px;	
+}
+.news_feed_title {
+    overflow: hidden;
+    margin-left: 15px;
+    display: inline-block;
+}
+.news_feed_title h3{
+	margin: 0;	
+}
+.news_feed_title h2{
+	font-size: 14px;
+	margin: 0;
+    font-weight: 400;	
+}
+
+/* icon */
+.witr_feed_icons {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.witr_feed_icons span{
+    display: inline-block;
+	font-size: 28px;
+	-webkit-transition:.5s;
+	transition:.5s;	
+}

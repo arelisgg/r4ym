@@ -1,0 +1,84 @@
+
+/*===========================
+    7.case css 
+===========================*/
+
+.witr_case{
+     position: relative;
+    overflow: hidden;
+    padding-bottom: 45px;
+	margin-bottom:20px;
+}
+.witr_case2{
+    padding-bottom: 95px;
+}
+.witr_case_image{
+    overflow: hidden;
+position:relative;	
+}
+.witr_case_image:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    content: "";
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.witr_case_image img{
+    width: 100%;
+}
+.witr_case:hover .witr_case_image:before{
+  height:100%;
+}
+.witr_content_casem {
+    padding: 21px 15px 26px;
+    position: absolute;
+    bottom: -80px;
+    left: 15px;
+    margin: auto;
+    -webkit-transition: .5s;
+    transition: .5s;
+    right: 15px;
+    text-align: left;	
+}
+.witr_case:hover .witr_content_casem{
+	bottom: -4px;
+}
+.witr_content_casei {}
+.witr_content_casei h3{
+    font-size: 21px;
+}
+.witr_content_casei p{
+    font-size: 15px;	
+	font-weight:700;
+    margin-bottom: 4px;	
+}
+.witr_case_btnb{
+	margin-top:20px;
+}
+.witr_case_btnb a{
+	font-size:16px;
+	font-weight:600;
+    padding: 13px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-transition: .5s;
+    transition: .5s;		
+}
+.witr_case_btnb a i{
+	margin-left: 5px;
+    -webkit-transition: 1s;
+    transition: 1s;	
+}
+.witr_case_btnb a:hover i{
+	margin-left: 15px;
+
+}
+
+/* case 2 style */
+.witr_case2 .witr_content_casem {
+    bottom: 15px;
+	       box-shadow: 0px 5px 20px 0px #0049ff14;
+}

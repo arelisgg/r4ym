@@ -1,0 +1,8 @@
+ /*======  Custom Icon  css =======*/ 
+.witr_custom_icons{}
+.witr_custom_icons a{}
+.witr_custom_icons  i{	
+    -webkit-transition: .5s;	
+    transition: .5s;
+}
+.witr_custom_icons i:hover{}

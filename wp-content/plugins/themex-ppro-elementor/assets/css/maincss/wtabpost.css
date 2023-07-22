@@ -1,0 +1,39 @@
+/*===========================
+    tab area css 
+===========================*/
+.tab_area {
+    overflow: hidden;
+    box-shadow: 0px 0px 30px 0 rgb(0 0 0 / 8%);
+    padding: 30px;
+}
+.tab_item {}
+.tab_item ul li {
+    padding: 0;
+}
+.tab_item ul li a {
+    padding: 7px 70px;
+}
+.tab_item .nav-pills li .nav-link.active {
+    border-radius: 0;
+}
+.tab_text_box {
+    margin-top: 20px;
+}
+.tab_area .tab_content h3 {
+    font-size: 25px;	
+}
+.tab_area .tab_content p {}
+.tab_area .tab_content a {
+    padding: 13px 52px;
+    margin-top: 15px;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.tab_area .tab_content:first-child a {
+    margin-right: 15px;
+}
+.digital-img img {
+	width: 100%;
+}
+
